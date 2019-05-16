@@ -2,8 +2,8 @@
 > React jsx添加循环指令m-for、判断指令m-if、数据绑定指令m-bind-组件属性。
 ## start
 
-> npm install brd-cli -g
-> brd-cli compile [文件夹/文件路径] [type:1-文件夹 0-文件]
+ `npm install brd-cli -g`
+ `brd-cli compile [文件夹/文件路径] [type:1-文件夹 0-文件]`
 
 ### example 
 
