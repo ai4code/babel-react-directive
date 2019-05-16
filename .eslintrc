@@ -1,0 +1,37 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : "airbnb",
+  "env" : {
+    "browser" : true
+  },
+  "globals" : {
+    "__DEV__"      : false,
+    "__PROD__"     : false,
+    "__DEBUG__"    : false,
+    "__COVERAGE__" : false,
+    "__BASENAME__" : false
+  },
+  "rules" : {
+    "react/jsx-filename-extension": 0,
+    "react/prefer-stateless-function": 1,
+    "react/forbid-prop-types": 0,
+    "react/no-unused-prop-types": 1,
+    "react/no-string-refs": 1,
+    "react/prefer-es6-class": 1,
+    "generator-star-spacing": 0,
+    "new-cap": 1,
+    "global-require": 1,
+    "no-underscore-dangle": 1,
+    "no-plusplus": 1,
+    "no-use-before-define": 1,
+    "prefer-const": 1,
+    "no-param-reassign": 1,
+    "no-unused-vars": 1,
+    "consistent-return": 1,
+    "array-callback-return": 1,
+    "no-useless-constructor": 1,
+    "no-useless-escape": 1,
+    "no-unneeded-ternary": 1,
+    "no-unused-expressions": 1,
+  }
+}
