@@ -2,20 +2,20 @@
 > React jsx添加循环指令m-for、判断指令m-if、数据绑定指令m-bind-组件属性。
 ## start
 
- `npm install brd-cli -g`
- `brd-cli compile [文件夹/文件路径] [type:1-文件夹 0-文件]`
+ > npm install brd-cli -g <br/>
+ > brd-cli compile [文件夹/文件路径] [type:1-文件夹 0-文件]<br/>
 
 ### example 
 
-> path C:\example
-> brd-cli compile example 1
-> brd-cli compile example/index.js 0
-> 路径为当前执行cmd得相对位置
+> path C:\example <br/>
+> brd-cli compile example 1 <br/>
+> brd-cli compile example/index.js 0 <br/>
+> 路径为当前执行cmd得相对位置 <br/>
 
 ## m-for
 
-> 1.支持绑定amVAR中变量
-> 2.支持循环嵌套引用对象
+> 1.支持绑定amVAR中变量 <br/>
+> 2.支持循环嵌套引用对象 <br/>
 
 ```jsx
 <div m-for="(item, index) in amVAR.data">
