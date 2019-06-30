@@ -1,18 +1,14 @@
 # Babel-React-Directive
 > React jsx添加循环指令m-for、判断指令m-if、数据绑定指令m-bind-组件属性。
 
-## 场景[github](https://github.com/ai4code/babel-react-directive)
+## Github
+[https://github.com/ai4code/babel-react-directive](https://github.com/ai4code/babel-react-directive)
+
+## 场景 
 > html转换RN、React时如果想要dsl(html)实现类vue指令满足用户开发场景.
 
 ## Test
 > npm run test
-
-### example 
-
-> path C:\example <br/>
-> brd-cli compile example 1 <br/>
-> brd-cli compile example/index.js 0 <br/>
-> 路径为当前执行cmd得相对位置 <br/>
 
 ## m-for
 
