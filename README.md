@@ -1,9 +1,11 @@
 # Babel-React-Directive
 > React jsx添加循环指令m-for、判断指令m-if、数据绑定指令m-bind-组件属性。
-## start
 
- > npm install brd-cli -g <br/>
- > brd-cli compile [文件夹/文件路径] [type:1-文件夹 0-文件]<br/>
+##场景
+> html转换RN、React时如果想要dsl(html)实现类vue指令满足用户开发场景.
+
+## Test
+> npm run test
 
 ### example 
 

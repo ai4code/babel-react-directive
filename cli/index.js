@@ -13,13 +13,9 @@ program
   program
     .command('compile <path> <type>')
     .description('编译react指令')
-    .action(function(path, type){
-      console.log(path, type, '>>>>>>>>>>>>>>')  
-      let spanner = ora("   正在编译，請稍等......")
+    .action(function(path, type){ 
       spanner.start()
-      $compile(path, type) 
-         console.log(chalk.green('★'),chalk.green('项目编译成功'))
-         spanner.stop()
+      $compile(path, type)
          process.exit(0)  
   });
 
